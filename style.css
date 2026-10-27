@@ -1,0 +1,113 @@
+/* Algemene instellingen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigatiebalk */
+header {
+    background-color: #edc281;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+nav a:hover, nav a.active {
+    background-color: #90b1ab;
+}
+
+/* Inhoud van de pagina's */
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 4px auto;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero h2 {
+    color: #a5c7e9;
+    margin-bottom: 15px;
+}
+
+.content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.content h2 {
+    color: #ebacd4;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content h2:first-child {
+    margin-top: 0;
+}
+
+/* Knop styling */
+.btn {
+    display: inline-block;
+    background-color: #abd7ce;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #b6e0d8;
+}
+
+/* Voettekst */
+footer {
+    background-color: #a5bce4;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
